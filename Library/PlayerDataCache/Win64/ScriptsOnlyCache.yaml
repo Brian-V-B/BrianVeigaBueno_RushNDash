@@ -10,7 +10,6 @@ ScriptsOnlyBuild:
     - HealthDisplay
     - HealthWheel
     - Map
-    - OrbDisplay
     - PauseScreen
     - PlayerCamera
     - PlayerEntity
@@ -143,8 +142,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1896}
     - Class: 114
       Script: {instanceID: 2214}
-    - Class: 114
-      Script: {instanceID: 2224}
     - Class: 114
       Script: {instanceID: 2638}
     - Class: 114
@@ -304,12 +301,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_StyleSheet
-  - hash:
-      serializedVersion: 2
-      Hash: 9acd2c8d93d976148c3cd35739705238
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: OrbDisplay
   - hash:
       serializedVersion: 2
       Hash: ad49e20f31ed572e586aa8bbaafb591b
@@ -1110,7 +1101,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: e204c628c62b635cbadf480e7a08dc3d
+      Hash: 2ef9dd8c0ceb11ca178cd467c73a0a54
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Map

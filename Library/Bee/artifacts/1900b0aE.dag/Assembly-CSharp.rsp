@@ -373,7 +373,6 @@
 "Assets/Scripts/Player/PlayerCamera.cs"
 "Assets/Scripts/UI/Collectables/CollectableDisplay.cs"
 "Assets/Scripts/UI/Collectables/GemDisplay.cs"
-"Assets/Scripts/UI/Collectables/OrbDisplay.cs"
 "Assets/Scripts/UI/Health/HealthDisplay.cs"
 "Assets/Scripts/UI/Health/HealthWheel.cs"
 "Assets/Scripts/UI/Pause/PauseScreen.cs"

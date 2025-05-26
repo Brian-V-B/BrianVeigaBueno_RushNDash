@@ -12,18 +12,11 @@ public class Map : MonoBehaviour
     // Las gemas totales que fueron cargadas en el mapa.
     [HideInInspector] public int TotalGems;
 
-    // Lps orbes totales que fueron cargados en el mapa.
-    [HideInInspector] public int TotalOrbs;
-
 
     //-- Collecionables Collecionados
 
     // Las gemas que han sido collecionadas en el mapa.
     [HideInInspector] public int Gems = 0;
-
-
-    // Los orbes collecionados en el mapa.
-    [HideInInspector] public int Orbs = 0;
 
 
 
@@ -54,13 +47,6 @@ public class Map : MonoBehaviour
     {
         if (amount > 0 && TryGetMap(out Map map))
             map.TotalGems += amount;
-    }
-
-
-    public static void AddOrbTotal()
-    {
-        if (TryGetMap(out Map map))
-            map.TotalOrbs++;
     }
 
 
