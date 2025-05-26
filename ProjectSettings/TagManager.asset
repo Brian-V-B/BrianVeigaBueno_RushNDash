@@ -7,6 +7,8 @@ TagManager:
   - Collectable
   - Enemy
   - NPC
+  - Respawner
+  - Tough
   layers:
   - Default
   - TransparentFX
@@ -14,11 +16,11 @@ TagManager:
   - 
   - Water
   - UI
-  - Player
+  - Interactor
   - Entity
   - Collectable
   - Projectile
-  - 
+  - Destructible
   - 
   - 
   - 
